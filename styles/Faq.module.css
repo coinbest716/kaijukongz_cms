@@ -1,0 +1,158 @@
+.faq {
+  position: relative;
+  display: 'box';
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.faqContainer {
+  padding: 80px;
+}
+@media screen and (max-width: 991px){
+.faqContainer {
+    padding: 40px;
+}}
+@media screen and (max-width: 767px){
+.faqContainer {
+    padding: 30px;
+}}
+
+
+.faqWrapper {
+  padding: 80px 60px;
+  background-color: #1d1d1d;
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 767px){
+.faqWrapper {
+    padding: 20px;
+}}
+
+.textBlock {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+@media screen and (max-width: 479px){
+.textBlock {
+    margin-bottom: 20px;
+}}
+
+.textBlock h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Upheavtt;
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 991px){
+.textBlock h2 {
+    font-size: 48px;
+}}
+@media screen and (max-width: 767px){
+.textBlock h2 {
+    font-size: 36px;
+}}
+@media screen and (max-width: 479px){
+.textBlock h2 {
+    display: block;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-size: 24px;
+    text-align: left;
+}}
+
+.faqWrapper2 {
+  margin-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+}
+.titleAndArrow {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-bottom: 8px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  font-family: Upheavtt;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 991px){
+.paragraph {
+    font-size: 18px;
+}}
+
+.arrowFaq {
+  position: static;
+  left: auto;
+  top: 0px;
+  right: 0%;
+  bottom: auto;
+  width: 24px;
+  margin-top: 3px;
+  margin-left: 12px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media screen and (max-width: 991px){
+.arrowFaq {
+    width: 18px;
+}}
+
+.faqDescription {
+  overflow: hidden;
+  margin-right: 0px;
+  padding-top: 8px;
+}
+
+.paragraphSmall {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 767px){
+.paragraphSmall {
+    font-size: 14px;
+}}

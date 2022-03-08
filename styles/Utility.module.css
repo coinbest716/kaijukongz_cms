@@ -1,0 +1,94 @@
+.utility {
+   width: 100%;
+   background-color: #000;
+   padding-top: 1rem;
+   padding-bottom: 1rem; 
+}
+.utilityContainer {
+    padding-bottom: 1.5rem;
+    max-width: 1768px;
+    margin: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.utility h2 {
+    color: var(--accent-color);
+    text-align: center!important;
+    font-family: Upheavtt;
+    font-size: 3rem;
+}
+
+.cardGroup {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    background-color: transparent;
+    margin: 0 4rem;
+    max-width: 589px;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+@media screen and (max-width: 991px){
+.card {
+    margin: 0;
+}}
+@media (min-width: 576px){
+.cardGroup>.card:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+.cardGroup>.card {
+    flex: 1 0 0%;
+    margin-bottom: 0;
+}
+}
+.cardImg {
+    flex-shrink: 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cardImg img {
+    height: 340px;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.cardBody {
+    color: #fff;
+    font-size: .88rem;
+    padding: 0 2rem;
+    background-size: contain;
+    text-align: center!important;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+@media (max-width: 1599px){
+.cardBody {
+    min-height: 8rem;
+}}
+
+.cardTitle{
+    margin: 0;
+    padding-top: 0.5rem;
+    font-size: 2.2rem;
+    color: var(--accent-color);
+    font-family: Upheavtt;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

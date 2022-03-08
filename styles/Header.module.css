@@ -1,0 +1,95 @@
+.header {
+    height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(180deg,transparent 50%,#000),url(/media/skull_HD.gif);
+    background-color: #ccc;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    height: -webkit-max-content;
+    height: max-content;
+    justify-content: center!important;
+    align-items: center!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLogo {
+    width: 50%;
+    margin-top: 30vh;
+    -webkit-animation: page-load 1969ms cubic-bezier(.04,1.2,1,.94);
+    animation: page-load 1969ms cubic-bezier(.04,1.2,1,.94);
+}
+
+.landingText {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-size: 1rem;
+    color: #FFF;
+    font-style: italic;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    font-family: "Roboto",sans-serif;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.55;
+    background: radial-gradient(50% 50% at 50% 50%, #000000 5.62%, rgba(0, 0, 0, 0) 100%);
+    padding: 4rem;
+}
+
+@keyframes page-load {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    } 
+}
+
+@keyframes page-load2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.buyBtn {
+    padding: 20px 20px 20px 55px;
+    border-radius: 5px;
+    background-color: #2081e2;
+    background-image: url(/media/opensea.png);
+    background-position: 10px 50%;
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Upheavtt;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
