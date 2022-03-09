@@ -279,7 +279,7 @@
     height: 100vh;
     z-index: 60;
     position: fixed;
-    display: flex;
+    display: none;
     animation: page-load4 0.4s ease-in-out;
     font-family: Upheavtt;
 }

@@ -2,7 +2,11 @@ import { motion } from 'framer-motion'
 import { NextComponentType } from 'next'
 import { useState } from 'react'
 import styles from '../../styles/Faq.module.css'
+import React, { useEffect } from 'react'
+import {gsap} from 'gsap'
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
+gsap.registerPlugin(ScrollTrigger)
 const Faq: NextComponentType = () => {
     const [opened, setOpened] = useState<boolean[]>([false, false, false, false, false])
     const open = (index:number) => {
@@ -10,7 +14,13 @@ const Faq: NextComponentType = () => {
         newOpened[index] = !opened[index];
         setOpened(newOpened)
     }
-
+    useEffect(() => {
+        gsap.fromTo(".Faq_faqWrapper__2fAiG", 
+        {y: 50, opacity: 0},
+        { scrollTrigger: {trigger: '.Faq_faqWrapper__2fAiG', start: "top center",},
+        y: 0, opacity: 1, duration: 1, delay: 0.1}
+        )
+    }, [])
     const variants = {
         initial: { height: 0 },
         animate: {
@@ -109,20 +119,6 @@ const Faq: NextComponentType = () => {
                     <p className={styles.paragraphSmall}>Your NFT will be burn directly from your wallet with no refunds if listed below the threshold price. See Burn schedule for details</p>
                 </motion.div>
                 </div>
-                {/* <div className={styles.faqWrapper2}>
-                <div className={styles.titleAndArrow} onClick={() => open(5)}>
-                    <p className={styles.paragraph}>HOW&nbsp;&nbsp;DO&nbsp;I&nbsp;CONTACT&nbsp;THE&nbsp;GANG</p>
-                    <motion.img variants={variant}
-                        initial="initial"
-                        animate={opened[5] ? "animate" : "initial"}
-                        src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
-                </div>
-                <motion.div variants={variants}
-                    initial="initial"
-                    animate={opened[5] ? "animate" : "initial"} className={styles.faqDescription}>
-                    <p className={styles.paragraphSmall}>Join our <a href="https://discord.gg/kittycryptogang" target="_blank">Discord</a>, and feel free to ask any questions you have. All essential information will be announced on <a href="https://discord.com/invite/kittycryptogang" target="_blank">Discord</a></p>
-                </motion.div>
-                </div> */}
             </div>
         </div>
     </div>

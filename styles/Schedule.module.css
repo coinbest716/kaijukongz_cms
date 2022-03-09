@@ -1,0 +1,65 @@
+.schedule {
+    position: relative;
+    display: 'box';
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.scheduleContainer {
+  padding: 80px;
+}
+@media screen and (max-width: 991px){
+.scheduleContainer {
+    padding: 40px;
+}}
+@media screen and (max-width: 767px){
+.scheduleContainer {
+    padding: 30px;
+}}
+
+.schedule h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Upheavtt;
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.table {
+    width: 100%;
+  padding: 80px 60px;
+  background-color: #1d1d1d;
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--accent-color);
+}
+@media screen and (max-width: 767px){
+.table {
+    padding: 20px;
+}}
+
+/* (B) CELLS */
+.table td, .table th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* (C) HEADER */
+.table thead {
+  font-weight: 700;
+  color: #fff;
+  background: #000;
+}
+
+/* (D) BODY */
+.table tbody tr:nth-child(even) {
+  background: #000;
+}

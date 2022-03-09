@@ -45,7 +45,7 @@
     background: radial-gradient(50% 50% at 50% 50%, #000000 5.62%, rgba(0, 0, 0, 0) 100%);
     padding: 4rem;
 }
-
+/* 
 @keyframes page-load {
     0% {
         -webkit-transform: translateY(100%);
@@ -73,7 +73,7 @@
     100% {
         opacity: 1;
     }
-}
+} */
 
 .buyBtn {
     padding: 20px 20px 20px 55px;
