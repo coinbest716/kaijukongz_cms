@@ -55,7 +55,7 @@ const Faq: NextComponentType = () => {
                     <motion.img variants={variant}
                     initial="initial"
                     animate={opened[0] ? "animate" : "initial"}
-                    src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
+                    src="/media/arrow.png" alt="" className={styles.arrowFaq}/>
                 </div>
                 <motion.div variants={variants}
                     initial="initial"
@@ -69,7 +69,7 @@ const Faq: NextComponentType = () => {
                     <motion.img variants={variant}
                         initial="initial"
                         animate={opened[1] ? "animate" : "initial"}
-                        src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
+                        src="/media/arrow.png" alt="" className={styles.arrowFaq}/>
                 </div>
                 <motion.div variants={variants}
                     initial="initial"
@@ -83,7 +83,7 @@ const Faq: NextComponentType = () => {
                     <motion.img variants={variant}
                         initial="initial"
                         animate={opened[2] ? "animate" : "initial"}
-                        src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
+                        src="/media/arrow.png" alt="" className={styles.arrowFaq}/>
                 </div>
                 <motion.div variants={variants}
                     initial="initial"
@@ -97,7 +97,7 @@ const Faq: NextComponentType = () => {
                     <motion.img variants={variant}
                         initial="initial"
                         animate={opened[3] ? "animate" : "initial"}
-                        src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
+                        src="/media/arrow.png" alt="" className={styles.arrowFaq}/>
                 </div>
                 <motion.div variants={variants}
                     initial="initial"
@@ -111,7 +111,7 @@ const Faq: NextComponentType = () => {
                     <motion.img variants={variant}
                         initial="initial"
                         animate={opened[4] ? "animate" : "initial"}
-                        src="https://global-uploads.webflow.com/61d2ff2dfb59c756d75a4007/61d2ff2dfb59c7c41b5a4036_arrow-down-sign-to-navigate.png" alt="" className={styles.arrowFaq}/>
+                        src="/media/arrow.png" alt="" className={styles.arrowFaq}/>
                 </div>
                 <motion.div variants={variants}
                     initial="initial"

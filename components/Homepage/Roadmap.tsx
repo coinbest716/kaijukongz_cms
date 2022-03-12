@@ -23,7 +23,7 @@ const Roadmap: NextComponentType = () => {
         {
           scrollTrigger: {
             trigger: '#wrapper',
-            start: "top center",
+            start: "top top+=200px",
             end: "3000px top",
             scrub: 1,
             // toggleActions: 'play none none reverse',
@@ -33,7 +33,7 @@ const Roadmap: NextComponentType = () => {
       )
       gsap.fromTo("#road1", 
       {x: 100, opacity: 0},
-      { scrollTrigger: {trigger: '#road1', start: "top center",},
+      { scrollTrigger: {trigger: '#road1', start: "top center", toggleActions: 'play play play play'},
       x: 0, opacity: 1, duration: 1, delay: 0.1}
       );
       gsap.fromTo("#road2", 
