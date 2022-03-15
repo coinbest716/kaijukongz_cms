@@ -26,29 +26,29 @@ const Schedule: NextComponentType = () => {
         <table id='table' className={styles.table}>
             <thead>
             <tr>
-                <td>March 17 23:00 UTC</td>
+                <td>March 17 XX:00 UTC</td>
                 <td>Listings &lt;0.065 will be burnt </td>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>March 18 23:00 UTC</td>
+                <td>March 18 XX:00 UTC</td>
                 <td>Listings &lt;0.08 will be burnt</td>
             </tr>
             <tr>
-                <td>March 19 23:00 UTC</td>
+                <td>March 19 XX:00 UTC</td>
                 <td>Listings &lt;0.16 will be burnt</td>
             </tr>
             <tr>
-                <td>March 20 23:00 UTC</td>
+                <td>March 20 XX:00 UTC</td>
                 <td>Listings &lt;0.32 will be burnt</td>
             </tr>
             <tr>
-                <td>March 21 23:00 UTC</td>
+                <td>March 21 XX:00 UTC</td>
                 <td>Listings &lt;0.64 will be burnt</td>
             </tr>
             <tr>
-                <td>March 22 23:00 UTC</td>
+                <td>March 22 XX:00 UTC</td>
                 <td>Burn mechanism is disabled</td>
             </tr>
             </tbody>
