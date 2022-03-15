@@ -62,7 +62,7 @@ const Utility: NextComponentType = () => {
          <div className={styles.card}>
             <div className={styles.cardImg} id="img3"><img src="/media/incubator.gif" alt="P2e-and & Junior Kongs" /></div>
             <div className={styles.cardBody}>
-                <h3 className={styles.cardTitle} id="txt3">P2e-and & Junior Kongs</h3>
+                <h3 className={styles.cardTitle} id="txt3">P2e - Land & Junior Kongs</h3>
             </div>
          </div>
       </div>
