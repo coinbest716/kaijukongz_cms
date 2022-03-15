@@ -99,7 +99,7 @@ const Roadmap: NextComponentType = () => {
             <div id='road4' className={styles.roadmapContent}>
                <div className={styles.roadmapContainer}><img src="/media/spearL.gif" loading="lazy" width="526"/></div>
                <h4 className={styles.roadmapHeading}>Future</h4>
-               <p className={styles.aboutPara}>$HUMAN for buying WL or enter raffles for other projects. Integration into partner gaming projects. VX collection for sandbox Hire. NFT Alpha & Crypto specialist. Many more plans ahead...</p>
+               <p className={styles.aboutPara}>$HUMAN for buying WL or enter raffles for other projects. Integration into partner gaming projects. VX collection for sandbox. Hire NFT Alpha & Crypto specialist. Many more plans ahead...</p>
             </div>
             <div className={`${styles.roadmapContent} ${styles.righPhase}`}>
                <h3 className={styles.percentage}>Phase 4</h3>
