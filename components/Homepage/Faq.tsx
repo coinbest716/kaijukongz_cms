@@ -88,7 +88,7 @@ const Faq: NextComponentType = () => {
                 <motion.div variants={variants}
                     initial="initial"
                     animate={opened[2] ? "animate" : "initial"} className={styles.faqDescription}>
-                    <p className={styles.paragraphSmall}>Mint date is expected to be between 12th and 17th of March </p>
+                    <p className={styles.paragraphSmall}>Mint date is expected to be 17th of March </p>
                 </motion.div>
                 </div>
                 <div className={styles.faqWrapper2}>
