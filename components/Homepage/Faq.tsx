@@ -116,7 +116,7 @@ const Faq: NextComponentType = () => {
                 <motion.div variants={variants}
                     initial="initial"
                     animate={opened[4] ? "animate" : "initial"} className={styles.faqDescription}>
-                    <p className={styles.paragraphSmall}>Your NFT will be burn directly from your wallet with no refunds if listed below the threshold price. See Burn schedule for details</p>
+                    <p className={styles.paragraphSmall}>Your NFT will be burnt directly from your wallet with no refunds if listed below the threshold price. See Burn schedule for details</p>
                 </motion.div>
                 </div>
             </div>
