@@ -32,24 +32,24 @@ const Roadmap: NextComponentType = () => {
         }
       )
       gsap.fromTo("#road1", 
-      {x: 100, opacity: 0},
+      {y: 100, opacity: 0},
       { scrollTrigger: {trigger: '#road1', start: "top center", toggleActions: 'play play play play'},
-      x: 0, opacity: 1, duration: 1, delay: 0.1}
+      y: 0, opacity: 1, duration: 1, delay: 0.1}
       );
       gsap.fromTo("#road2", 
-      {x: -100, opacity: 0},
+      {y: 100, opacity: 0},
       { scrollTrigger: {trigger: '#road2', start: "top center",},
-      x: 0, opacity: 1, duration: 1, delay: 0.1}
+      y: 0, opacity: 1, duration: 1, delay: 0.1}
       );
       gsap.fromTo("#road3", 
-      {x: 100, opacity: 0},
+      {y: 100, opacity: 0},
       { scrollTrigger: {trigger: '#road3', start: "top center",},
-      x: 0, opacity: 1, duration: 1, delay: 0.1}
+      y: 0, opacity: 1, duration: 1, delay: 0.1}
       );
       gsap.fromTo("#road4", 
-      {x: -100, opacity: 0},
+      {y: 100, opacity: 0},
       { scrollTrigger: {trigger: '#road4', start: "top center",},
-      x: 0, opacity: 1, duration: 2, delay: 0.1}
+      y: 0, opacity: 1, duration: 2, delay: 0.1}
       );
     }, [])
 
