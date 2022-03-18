@@ -76,14 +76,15 @@
 } */
 
 .buyBtn {
-    padding: 20px 20px 20px 55px;
+    /* padding: 20px 20px 20px 55px; */
+    padding: 20px 30px 20px 30px;
     border-radius: 5px;
     background-color: #2081e2;
-    background-image: url(/media/opensea.png);
+    /* background-image: url(/media/opensea.png);
     background-position: 10px 50%;
     background-size: auto 50%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll; */
     font-family: Upheavtt;
     font-weight: 700;
     color: white;
